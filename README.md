@@ -1,5 +1,8 @@
 # 📚 Book Recommendation System
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![GitHub repo size](https://img.shields.io/github/repo-size/naila-naaz/Book-Recommendation-System)
 ![GitHub stars](https://img.shields.io/github/stars/naila-naaz/Book-Recommendation-System?style=social)
