@@ -31,3 +31,9 @@ Clone the repository and install the requirements:
 git clone https://github.com/naila-naaz/Book-Recommendation-System.git
 cd Book-Recommendation-System
 pip install -r requirements.txt
+
+## 📸 Example Output
+
+When you run the program and search for `harry potter`, you’ll see something like this:
+
+
