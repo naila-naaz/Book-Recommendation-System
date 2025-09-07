@@ -19,10 +19,19 @@ feature_vectors = vectorizer.fit_transform(books["features"])
 similarity = cosine_similarity(feature_vectors)
 
 def recommend_book(book_title):
-    if book_title not in books["title"].values:
+    # Convert user input to lowercase
+    book_title = book_title.lower()
+
+    # Find closest match (case-insensitive + partial)
+    matches = books[books['title'].str.lower().str.contains(book_title)]
+
+    if matches.empty:
         return ["Book not found in database. Try another."]
 
-    index = books[books["title"] == book_title].index[0]
+    # Use the first matching book
+    index = matches.index[0]
+
+
     scores = list(enumerate(similarity[index]))
     sorted_scores = sorted(scores, key=lambda x: x[1], reverse=True)
 

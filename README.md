@@ -7,7 +7,6 @@
 
 A beginner-friendly Python project that recommends similar books using **TF-IDF** and **Cosine Similarity**.  
 
----
 
 ## ✨ Features
 - 📖 Content-based recommendation system  
@@ -15,7 +14,7 @@ A beginner-friendly Python project that recommends similar books using **TF-IDF*
 - 🔍 Computes similarity using **Cosine Similarity**  
 - 👩‍💻 Beginner-friendly and easy to extend  
 
----
+
 
 ## 📂 Files
 - `books.csv` → Dataset of books  
@@ -23,7 +22,6 @@ A beginner-friendly Python project that recommends similar books using **TF-IDF*
 - `requirements.txt` → Required libraries  
 - `README.md` → Project documentation  
 
----
 
 ## ⚙️ Installation
 
